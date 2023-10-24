@@ -20,7 +20,7 @@ class PilaProductos {
     public String contenidoPila() {
         String res = "";
         for (Producto producto : pilaProductos) {
-            res+=producto.toString();
+            res+=producto.toString()+"\n";
         }
         return res;
     }
@@ -29,7 +29,7 @@ class PilaProductos {
     public String contenidoPilaInverso() {
         String res = "";
         for(int i = pilaProductos.size()-1; i >= 0; i--) {
-            res+=pilaProductos.get(i).toString();
+            res+=pilaProductos.get(i).toString()+"\n";
         }
         return res;
     }

@@ -4,10 +4,10 @@ class Persona {
     private int edad;
     private char genero;
     private String direccion;
-    private short correo;
+    private String correo;
     private String fechaNacimiento;
 
-    Persona(String nombre, String apellido, int edad, char genero, String direccion, short correo, String fechaNacimiento) {
+    Persona(String nombre, String apellido, int edad, char genero, String direccion, String correo, String fechaNacimiento) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.edad = edad;

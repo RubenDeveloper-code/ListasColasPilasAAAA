@@ -15,6 +15,11 @@ class ListasEnlazadasPersona {
         listPersona.addFirst(persona);
         return "Persona añadida al principio de la lista";
     }
+    
+    public String insertar(Persona persona, int index){
+        listPersona.add(index,persona);
+        return "Elemento agregado0";
+    }
 
     public String eliminarPrimero() {
         listPersona.removeFirst();
@@ -48,7 +53,7 @@ class ListasEnlazadasPersona {
     public String contenidoLista() {
         String res = "";
         for (Persona persona : listPersona) {
-            res+=persona.toString();
+            res+=persona.toString()+"\n";
         }
         return res;
     }
@@ -56,7 +61,7 @@ class ListasEnlazadasPersona {
     public String contenidoListaInverso() {
         String res = "";
         for(int i = listPersona.size()-1; i >= 0; i--) {
-            res+=listPersona.get(i).toString();
+            res+=listPersona.get(i).toString()+"\n";
         }
         return res;
     }

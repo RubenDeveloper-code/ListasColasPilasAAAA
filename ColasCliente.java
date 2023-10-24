@@ -3,11 +3,12 @@ import java.util.PriorityQueue;
 class ColasCliente {
     private PriorityQueue<Cliente> colaCilente;
     ColasCliente() {
-        colaCilente = new PriorityQueue<Cliente>();
+        colaCilente = new PriorityQueue<>();
     }
 
     public String insertar(Cliente cliente) {
         colaCilente.add(cliente);
+        System.out.print("UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU");
         return "Cliente agregado a cola";
     }
 
@@ -19,7 +20,7 @@ class ColasCliente {
     public String contenidoCola() {
         String res = "";
         for (Cliente cliente : colaCilente) {
-            res+=cliente.toString();
+            res+=cliente.toString()+"\n";
         }
         return res;
     }
@@ -31,7 +32,7 @@ class ColasCliente {
     private String contenidoRescursivoPaVoltearLosResultadosAdemasAprovechoParaDemostrarMiTotalApoyoAlPresidenteComandanteSupremoDeLasFuerzasArmadasAndresManuelLopezObradorLealtadAbsolutaALaCuantroT(int i) {
         if(i>0)
             contenidoRescursivoPaVoltearLosResultadosAdemasAprovechoParaDemostrarMiTotalApoyoAlPresidenteComandanteSupremoDeLasFuerzasArmadasAndresManuelLopezObradorLealtadAbsolutaALaCuantroT(i);
-        return colaCilente.peek().toString();
+        return colaCilente.peek().toString()+"\n";
     }
 
 }

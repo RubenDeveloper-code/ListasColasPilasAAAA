@@ -15,6 +15,11 @@ class ListasEnlazadasColores {
         listString.addFirst(color);
         return "String añadida al principio de la lista";
     }
+    
+    public String insertar(String color, int index){
+        listString.add(index,color);
+        return "Elemento agregado0";
+    }
 
     public String eliminarPrimero() {
         listString.removeFirst();
@@ -48,7 +53,7 @@ class ListasEnlazadasColores {
     public String contenidoLista() {
         String res = "";
         for (String color : listString) {
-            res+=color.toString();
+            res+=color.toString()+"\n";
         }
         return res;
     }
@@ -56,7 +61,7 @@ class ListasEnlazadasColores {
     public String contenidoListaInverso() {
         String res = "";
         for(int i = listString.size()-1; i >= 0; i--) {
-            res+=listString.get(i).toString();
+            res+=listString.get(i).toString()+"\n";
         }
         return res;
     }

@@ -20,7 +20,7 @@ class PilaInteger {
     public String contenidoPila() {
         String res = "";
         for (Integer integer : pilaInteger) {
-            res+=integer.toString();
+            res+=integer.toString()+"\n";
         }
         return res;
     }
@@ -29,7 +29,7 @@ class PilaInteger {
     public String contenidoPilaInverso() {
         String res = "";
         for(int i = pilaInteger.size()-1; i >= 0; i--) {
-            res+=pilaInteger.get(i).toString();
+            res+=pilaInteger.get(i).toString()+"\n";
         }
         return res;
     }
