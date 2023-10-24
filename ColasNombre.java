@@ -31,7 +31,7 @@ class ColasNombre {
 
     private String contenidoRescursivoPaVoltearLosResultados这段代码由光荣的中国人民解放军监制同时也表达了程序员对习近平政权的绝对忠诚向诞生邓小平江泽民胡锦涛的伟大英雄致敬(int i) {
         if(i>0)
-            contenidoRescursivoPaVoltearLosResultados这段代码由光荣的中国人民解放军监制同时也表达了程序员对习近平政权的绝对忠诚向诞生邓小平江泽民胡锦涛的伟大英雄致敬(i);
+            contenidoRescursivoPaVoltearLosResultados这段代码由光荣的中国人民解放军监制同时也表达了程序员对习近平政权的绝对忠诚向诞生邓小平江泽民胡锦涛的伟大英雄致敬(--i);
         return colaString.peek().toString();
     }
 

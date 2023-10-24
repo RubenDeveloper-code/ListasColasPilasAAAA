@@ -39,7 +39,7 @@
 !_TAG_PROGRAM_VERSION	6.0.0	/p6.0.20221218.0/
 !_TAG_ROLE_DESCRIPTION!Java!package	imported	/imported package/
 Cliente	Cliente.java	/^    Cliente(int cuenta, String nombre, String apellidoPaterno, double saldo) {$/;"	m	class:Cliente
-Cliente	Cliente.java	/^class Cliente {$/;"	c
+Cliente	Cliente.java	/^class Cliente implements Comparable<Cliente> {$/;"	c
 ColasCliente	ColasCliente.java	/^    ColasCliente() {$/;"	m	class:ColasCliente
 ColasCliente	ColasCliente.java	/^class ColasCliente {$/;"	c
 ColasNombre	ColasNombre.java	/^    ColasNombre() {$/;"	m	class:ColasNombre
@@ -128,6 +128,7 @@ colasClienteMouseClicked	IPrincipal.java	/^    private void colasClienteMouseCli
 colasNombre	IPrincipal.java	/^    private javax.swing.JMenu colasNombre;$/;"	f	class:IPrincipal	file:
 color	VListasString.java	/^    private javax.swing.JTextPane color;$/;"	f	class:VListasString	file:
 colores	VListasString.java	/^    ListasEnlazadasColores colores;$/;"	f	class:VListasString
+compareTo	Cliente.java	/^    public int compareTo(Cliente cliente) { \/\/Pinche vida miada$/;"	m	class:Cliente
 contenidoCola	ColasCliente.java	/^    public String contenidoCola() {$/;"	m	class:ColasCliente
 contenidoCola	ColasNombre.java	/^    public String contenidoCola() {$/;"	m	class:ColasNombre
 contenidoColaInverso	ColasCliente.java	/^    public String contenidoColaInverso() {$/;"	m	class:ColasCliente
@@ -329,6 +330,7 @@ texto	VListasPersona.java	/^    private javax.swing.JTextArea texto;$/;"	f	class
 texto	VListasString.java	/^    private javax.swing.JTextArea texto;$/;"	f	class:VListasString	file:
 texto	VPilaInteger.java	/^    private javax.swing.JTextArea texto;$/;"	f	class:VPilaInteger	file:
 texto	vColasNombres.java	/^    private javax.swing.JTextArea texto;$/;"	f	class:vColasNombres	file:
+toString	Cliente.java	/^    public String toString() {$/;"	m	class:Cliente
 toString	Persona.java	/^    public String toString() {$/;"	m	class:Persona
 toString	Producto.java	/^    public String toString() {$/;"	m	class:Producto
 vColasNombres	vColasNombres.java	/^    public vColasNombres() {$/;"	m	class:vColasNombres

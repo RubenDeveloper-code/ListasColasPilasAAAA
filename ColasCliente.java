@@ -31,7 +31,7 @@ class ColasCliente {
 
     private String contenidoRescursivoPaVoltearLosResultadosAdemasAprovechoParaDemostrarMiTotalApoyoAlPresidenteComandanteSupremoDeLasFuerzasArmadasAndresManuelLopezObradorLealtadAbsolutaALaCuantroT(int i) {
         if(i>0)
-            contenidoRescursivoPaVoltearLosResultadosAdemasAprovechoParaDemostrarMiTotalApoyoAlPresidenteComandanteSupremoDeLasFuerzasArmadasAndresManuelLopezObradorLealtadAbsolutaALaCuantroT(i);
+            contenidoRescursivoPaVoltearLosResultadosAdemasAprovechoParaDemostrarMiTotalApoyoAlPresidenteComandanteSupremoDeLasFuerzasArmadasAndresManuelLopezObradorLealtadAbsolutaALaCuantroT(--i);
         return colaCilente.peek().toString()+"\n";
     }
 
