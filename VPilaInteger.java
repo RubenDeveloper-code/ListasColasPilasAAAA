@@ -144,8 +144,12 @@ public class VPilaInteger extends javax.swing.JInternalFrame {
     }//GEN-LAST:event_ponerActionPerformed
 
     private void quitarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_quitarActionPerformed
+        if(enteros.contenidoPila()=="")
+            texto.setText("No hay nada");
+        else{
         enteros.pop();
         texto.setText("Numero elimindo correctamente");
+        }
     }//GEN-LAST:event_quitarActionPerformed
 
     private void reporteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_reporteActionPerformed

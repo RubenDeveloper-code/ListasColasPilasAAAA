@@ -189,8 +189,12 @@ public class VColasCliente extends javax.swing.JInternalFrame {
     }//GEN-LAST:event_añadirActionPerformed
 
     private void eliminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_eliminarActionPerformed
+        if(clientes.contenidoCola()=="")
+            texto.setText("No hay nada");
+        else{
         clientes.eliminar();
         texto.setText("Eliminado correctamente");
+        }
     }//GEN-LAST:event_eliminarActionPerformed
 
     private void reporteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_reporteActionPerformed

@@ -197,9 +197,11 @@ public class PilaProducto extends javax.swing.JInternalFrame {
     }//GEN-LAST:event_ponerActionPerformed
 
     private void quitarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_quitarActionPerformed
-        
-        productos.pop();
-        texto.setText("Producto eliminado con exito");
+        if(productos.contenidoPila()=="")
+            texto.setText("no hay na");
+        else
+        {productos.pop();
+        texto.setText("Producto eliminado con exito");}
     }//GEN-LAST:event_quitarActionPerformed
 
     private void reporteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_reporteActionPerformed

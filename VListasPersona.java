@@ -366,13 +366,21 @@ public class VListasPersona extends javax.swing.JInternalFrame {
     }//GEN-LAST:event_IposcicionActionPerformed
 
     private void EinicioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EinicioActionPerformed
+        if(personas.contenidoLista()=="")
+            texto.setText("No hay nada");
+        else{
         personas.eliminarPrimero();
         texto.setText("Eliminado con exito");
+        }
     }//GEN-LAST:event_EinicioActionPerformed
 
     private void EfinalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EfinalActionPerformed
+        if(personas.contenidoLista()=="")
+            texto.setText("No hay nada");
+        else{
         personas.eliminarUltimo();
         texto.setText("Eliminado con exito");
+        }
     }//GEN-LAST:event_EfinalActionPerformed
 
     private void EposcicionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EposcicionActionPerformed
@@ -381,8 +389,10 @@ public class VListasPersona extends javax.swing.JInternalFrame {
     }//GEN-LAST:event_EposcicionActionPerformed
 
     private void EnombreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EnombreActionPerformed
+        
         personas.elminarPorNombre(nombre.getText());
         texto.setText("Eliminado con exito");
+        
     }//GEN-LAST:event_EnombreActionPerformed
 
     private void RbuscarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RbuscarActionPerformed

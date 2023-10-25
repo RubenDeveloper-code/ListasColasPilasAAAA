@@ -95,6 +95,11 @@ public class IPrincipal extends javax.swing.JFrame {
         jMenu3.add(colasCliente);
 
         colasNombre.setText("Nombre");
+        colasNombre.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                colasNombreMouseClicked(evt);
+            }
+        });
         jMenu3.add(colasNombre);
 
         jMenuBar1.add(jMenu3);
@@ -162,6 +167,12 @@ public class IPrincipal extends javax.swing.JFrame {
        escritorio.add(cliente);
        cliente.setVisible(true);
     }//GEN-LAST:event_colasClienteMouseClicked
+
+    private void colasNombreMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_colasNombreMouseClicked
+        VColasNombre nombre = new VColasNombre();
+        escritorio.add(nombre);
+        nombre.setVisible(true);
+    }//GEN-LAST:event_colasNombreMouseClicked
 
     /**
      * @param args the command line arguments

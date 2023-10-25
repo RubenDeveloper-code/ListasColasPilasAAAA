@@ -1,4 +1,7 @@
+import java.util.Collections;
+import java.util.List;
 import java.util.PriorityQueue;
+import java.util.stream.Collectors;
 
 class ColasCliente {
     private PriorityQueue<Cliente> colaCilente;
@@ -30,9 +33,13 @@ class ColasCliente {
     }
 
     private String contenidoRescursivoPaVoltearLosResultadosAdemasAprovechoParaDemostrarMiTotalApoyoAlPresidenteComandanteSupremoDeLasFuerzasArmadasAndresManuelLopezObradorLealtadAbsolutaALaCuantroT(int i) {
-        if(i>0)
-            contenidoRescursivoPaVoltearLosResultadosAdemasAprovechoParaDemostrarMiTotalApoyoAlPresidenteComandanteSupremoDeLasFuerzasArmadasAndresManuelLopezObradorLealtadAbsolutaALaCuantroT(--i);
-        return colaCilente.peek().toString()+"\n";
+        List<Cliente> values = colaCilente.stream().sorted().collect(Collectors.toList());
+        Collections.reverse(values);
+        String res = "";
+        for (Cliente cliente : values) {
+            res+=cliente.toString()+"\n";
+        }
+        return res;
     }
 
 }
