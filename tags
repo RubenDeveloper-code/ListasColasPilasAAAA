@@ -103,6 +103,8 @@ RinversoActionPerformed	VListasPersona.java	/^    private void RinversoActionPer
 RinversoActionPerformed	VListasString.java	/^    private void RinversoActionPerformed(java.awt.event.ActionEvent evt) {\/\/GEN-FIRST:event_Ri/;"	m	class:VListasString	file:
 VColasCliente	VColasCliente.java	/^    public VColasCliente() {$/;"	m	class:VColasCliente
 VColasCliente	VColasCliente.java	/^public class VColasCliente extends javax.swing.JInternalFrame {$/;"	c
+VColasNombre	VColasNombre.java	/^    public VColasNombre() {$/;"	m	class:VColasNombre
+VColasNombre	VColasNombre.java	/^public class VColasNombre extends javax.swing.JInternalFrame {$/;"	c
 VListasPersona	VListasPersona.java	/^    public VListasPersona() {$/;"	m	class:VListasPersona
 VListasPersona	VListasPersona.java	/^public class VListasPersona extends javax.swing.JInternalFrame {$/;"	c
 VListasString	VListasString.java	/^    public VListasString() {$/;"	m	class:VListasString
@@ -110,8 +112,10 @@ VListasString	VListasString.java	/^public class VListasString extends javax.swin
 VPilaInteger	VPilaInteger.java	/^    public VPilaInteger() {$/;"	m	class:VPilaInteger
 VPilaInteger	VPilaInteger.java	/^public class VPilaInteger extends javax.swing.JInternalFrame {$/;"	c
 adir	VColasCliente.java	/^    private javax.swing.JButton añadir;$/;"	f	class:VColasCliente	file:
+adir	VColasNombre.java	/^    private javax.swing.JButton añadir;$/;"	f	class:VColasNombre	file:
 adir	vColasNombres.java	/^    private javax.swing.JButton añadir;$/;"	f	class:vColasNombres	file:
 adirActionPerformed	VColasCliente.java	/^    private void añadirActionPerformed(java.awt.event.ActionEvent evt) {\/\/GEN-FIRST:event_añ/;"	m	class:VColasCliente	file:
+adirActionPerformed	VColasNombre.java	/^    private void añadirActionPerformed(java.awt.event.ActionEvent evt) {\/\/GEN-FIRST:event_añ/;"	m	class:VColasNombre	file:
 adirActionPerformed	vColasNombres.java	/^    private void añadirActionPerformed(java.awt.event.ActionEvent evt) {\/\/GEN-FIRST:event_añ/;"	m	class:vColasNombres	file:
 apellido	Persona.java	/^    private String apellido;$/;"	f	class:Persona	file:
 apellido	VColasCliente.java	/^    private javax.swing.JTextPane apellido;$/;"	f	class:VColasCliente	file:
@@ -126,6 +130,7 @@ colaString	ColasNombre.java	/^    private PriorityQueue<String> colaString;$/;"	
 colasCliente	IPrincipal.java	/^    private javax.swing.JMenu colasCliente;$/;"	f	class:IPrincipal	file:
 colasClienteMouseClicked	IPrincipal.java	/^    private void colasClienteMouseClicked(java.awt.event.MouseEvent evt) {\/\/GEN-FIRST:event_co/;"	m	class:IPrincipal	file:
 colasNombre	IPrincipal.java	/^    private javax.swing.JMenu colasNombre;$/;"	f	class:IPrincipal	file:
+colasNombreMouseClicked	IPrincipal.java	/^    private void colasNombreMouseClicked(java.awt.event.MouseEvent evt) {\/\/GEN-FIRST:event_col/;"	m	class:IPrincipal	file:
 color	VListasString.java	/^    private javax.swing.JTextPane color;$/;"	f	class:VListasString	file:
 colores	VListasString.java	/^    ListasEnlazadasColores colores;$/;"	f	class:VListasString
 compareTo	Cliente.java	/^    public int compareTo(Cliente cliente) { \/\/Pinche vida miada$/;"	m	class:Cliente
@@ -154,8 +159,10 @@ edad	VListasPersona.java	/^    private javax.swing.JTextPane edad;$/;"	f	class:V
 eliminar	ColasCliente.java	/^    public String eliminar() {$/;"	m	class:ColasCliente
 eliminar	ColasNombre.java	/^    public String eliminar() {$/;"	m	class:ColasNombre
 eliminar	VColasCliente.java	/^    private javax.swing.JButton eliminar;$/;"	f	class:VColasCliente	file:
+eliminar	VColasNombre.java	/^    private javax.swing.JButton eliminar;$/;"	f	class:VColasNombre	file:
 eliminar	vColasNombres.java	/^    private javax.swing.JButton eliminar;$/;"	f	class:vColasNombres	file:
 eliminarActionPerformed	VColasCliente.java	/^    private void eliminarActionPerformed(java.awt.event.ActionEvent evt) {\/\/GEN-FIRST:event_el/;"	m	class:VColasCliente	file:
+eliminarActionPerformed	VColasNombre.java	/^    private void eliminarActionPerformed(java.awt.event.ActionEvent evt) {\/\/GEN-FIRST:event_el/;"	m	class:VColasNombre	file:
 eliminarActionPerformed	vColasNombres.java	/^    private void eliminarActionPerformed(java.awt.event.ActionEvent evt) {\/\/GEN-FIRST:event_el/;"	m	class:vColasNombres	file:
 eliminarEnPosicion	ListasEnlazadasPersona.java	/^    public String eliminarEnPosicion(int index) {$/;"	m	class:ListasEnlazadasPersona
 eliminarEnPosicion	ListasEnlazadasString.java	/^    public String eliminarEnPosicion(int index) {$/;"	m	class:ListasEnlazadasColores
@@ -177,6 +184,7 @@ getNombre	Persona.java	/^    public String getNombre() {$/;"	m	class:Persona
 initComponents	IPrincipal.java	/^    private void initComponents() {$/;"	m	class:IPrincipal	file:
 initComponents	PilaProducto.java	/^    private void initComponents() {$/;"	m	class:PilaProducto	file:
 initComponents	VColasCliente.java	/^    private void initComponents() {$/;"	m	class:VColasCliente	file:
+initComponents	VColasNombre.java	/^    private void initComponents() {$/;"	m	class:VColasNombre	file:
 initComponents	VListasPersona.java	/^    private void initComponents() {$/;"	m	class:VListasPersona	file:
 initComponents	VListasString.java	/^    private void initComponents() {$/;"	m	class:VListasString	file:
 initComponents	VPilaInteger.java	/^    private void initComponents() {$/;"	m	class:VPilaInteger	file:
@@ -191,14 +199,17 @@ insertarAlPrincipio	ListasEnlazadasPersona.java	/^    public String insertarAlPr
 insertarAlPrincipio	ListasEnlazadasString.java	/^    public String insertarAlPrincipio(String color) {$/;"	m	class:ListasEnlazadasColores
 inverso	PilaProducto.java	/^    private javax.swing.JButton inverso;$/;"	f	class:PilaProducto	file:
 inverso	VColasCliente.java	/^    private javax.swing.JButton inverso;$/;"	f	class:VColasCliente	file:
+inverso	VColasNombre.java	/^    private javax.swing.JButton inverso;$/;"	f	class:VColasNombre	file:
 inverso	VPilaInteger.java	/^    private javax.swing.JButton inverso;$/;"	f	class:VPilaInteger	file:
 inverso	vColasNombres.java	/^    private javax.swing.JButton inverso;$/;"	f	class:vColasNombres	file:
 inversoActionPerformed	PilaProducto.java	/^    private void inversoActionPerformed(java.awt.event.ActionEvent evt) {\/\/GEN-FIRST:event_inv/;"	m	class:PilaProducto	file:
 inversoActionPerformed	VColasCliente.java	/^    private void inversoActionPerformed(java.awt.event.ActionEvent evt) {\/\/GEN-FIRST:event_inv/;"	m	class:VColasCliente	file:
+inversoActionPerformed	VColasNombre.java	/^    private void inversoActionPerformed(java.awt.event.ActionEvent evt) {\/\/GEN-FIRST:event_inv/;"	m	class:VColasNombre	file:
 inversoActionPerformed	VPilaInteger.java	/^    private void inversoActionPerformed(java.awt.event.ActionEvent evt) {\/\/GEN-FIRST:event_inv/;"	m	class:VPilaInteger	file:
 inversoActionPerformed	vColasNombres.java	/^    private void inversoActionPerformed(java.awt.event.ActionEvent evt) {\/\/GEN-FIRST:event_inv/;"	m	class:vColasNombres	file:
 jLabel1	PilaProducto.java	/^    private javax.swing.JLabel jLabel1;$/;"	f	class:PilaProducto	file:
 jLabel1	VColasCliente.java	/^    private javax.swing.JLabel jLabel1;$/;"	f	class:VColasCliente	file:
+jLabel1	VColasNombre.java	/^    private javax.swing.JLabel jLabel1;$/;"	f	class:VColasNombre	file:
 jLabel1	VListasPersona.java	/^    private javax.swing.JLabel jLabel1;$/;"	f	class:VListasPersona	file:
 jLabel1	VListasString.java	/^    private javax.swing.JLabel jLabel1;$/;"	f	class:VListasString	file:
 jLabel1	VPilaInteger.java	/^    private javax.swing.JLabel jLabel1;$/;"	f	class:VPilaInteger	file:
@@ -233,6 +244,7 @@ jPanel1	VListasPersona.java	/^    private javax.swing.JPanel jPanel1;$/;"	f	clas
 jPanel1	VPilaInteger.java	/^    private javax.swing.JPanel jPanel1;$/;"	f	class:VPilaInteger	file:
 jScrollPane1	PilaProducto.java	/^    private javax.swing.JScrollPane jScrollPane1;$/;"	f	class:PilaProducto	file:
 jScrollPane1	VColasCliente.java	/^    private javax.swing.JScrollPane jScrollPane1;$/;"	f	class:VColasCliente	file:
+jScrollPane1	VColasNombre.java	/^    private javax.swing.JScrollPane jScrollPane1;$/;"	f	class:VColasNombre	file:
 jScrollPane1	VListasPersona.java	/^    private javax.swing.JScrollPane jScrollPane1;$/;"	f	class:VListasPersona	file:
 jScrollPane1	VListasString.java	/^    private javax.swing.JScrollPane jScrollPane1;$/;"	f	class:VListasString	file:
 jScrollPane1	VPilaInteger.java	/^    private javax.swing.JScrollPane jScrollPane1;$/;"	f	class:VPilaInteger	file:
@@ -248,6 +260,7 @@ jScrollPane4	VColasCliente.java	/^    private javax.swing.JScrollPane jScrollPan
 jScrollPane4	VListasPersona.java	/^    private javax.swing.JScrollPane jScrollPane4;$/;"	f	class:VListasPersona	file:
 jScrollPane5	PilaProducto.java	/^    private javax.swing.JScrollPane jScrollPane5;$/;"	f	class:PilaProducto	file:
 jScrollPane5	VColasCliente.java	/^    private javax.swing.JScrollPane jScrollPane5;$/;"	f	class:VColasCliente	file:
+jScrollPane5	VColasNombre.java	/^    private javax.swing.JScrollPane jScrollPane5;$/;"	f	class:VColasNombre	file:
 jScrollPane5	VListasPersona.java	/^    private javax.swing.JScrollPane jScrollPane5;$/;"	f	class:VListasPersona	file:
 jScrollPane5	VPilaInteger.java	/^    private javax.swing.JScrollPane jScrollPane5;$/;"	f	class:VPilaInteger	file:
 jScrollPane5	vColasNombres.java	/^    private javax.swing.JScrollPane jScrollPane5;$/;"	f	class:vColasNombres	file:
@@ -271,8 +284,10 @@ nombre	Persona.java	/^    private String nombre;$/;"	f	class:Persona	file:
 nombre	PilaProducto.java	/^    private javax.swing.JTextPane nombre;$/;"	f	class:PilaProducto	file:
 nombre	Producto.java	/^    String nombre;$/;"	f	class:Producto
 nombre	VColasCliente.java	/^    private javax.swing.JTextPane nombre;$/;"	f	class:VColasCliente	file:
+nombre	VColasNombre.java	/^    private javax.swing.JTextPane nombre;$/;"	f	class:VColasNombre	file:
 nombre	VListasPersona.java	/^    private javax.swing.JTextPane nombre;$/;"	f	class:VListasPersona	file:
 nombre	vColasNombres.java	/^    private javax.swing.JTextPane nombre;$/;"	f	class:vColasNombres	file:
+nombres	VColasNombre.java	/^    ColasNombre nombres;$/;"	f	class:VColasNombre
 nombres	vColasNombres.java	/^    ColasNombre nombres;$/;"	f	class:vColasNombres
 numLote	Producto.java	/^    int numLote;$/;"	f	class:Producto
 numero	VColasCliente.java	/^    private javax.swing.JTextPane numero;$/;"	f	class:VColasCliente	file:
@@ -302,22 +317,26 @@ quitarActionPerformed	PilaProducto.java	/^    private void quitarActionPerformed
 quitarActionPerformed	VPilaInteger.java	/^    private void quitarActionPerformed(java.awt.event.ActionEvent evt) {\/\/GEN-FIRST:event_quit/;"	m	class:VPilaInteger	file:
 regresar	PilaProducto.java	/^    private javax.swing.JButton regresar;$/;"	f	class:PilaProducto	file:
 regresar	VColasCliente.java	/^    private javax.swing.JButton regresar;$/;"	f	class:VColasCliente	file:
+regresar	VColasNombre.java	/^    private javax.swing.JButton regresar;$/;"	f	class:VColasNombre	file:
 regresar	VListasPersona.java	/^    private javax.swing.JButton regresar;$/;"	f	class:VListasPersona	file:
 regresar	VListasString.java	/^    private javax.swing.JButton regresar;$/;"	f	class:VListasString	file:
 regresar	VPilaInteger.java	/^    private javax.swing.JButton regresar;$/;"	f	class:VPilaInteger	file:
 regresar	vColasNombres.java	/^    private javax.swing.JButton regresar;$/;"	f	class:vColasNombres	file:
 regresarActionPerformed	PilaProducto.java	/^    private void regresarActionPerformed(java.awt.event.ActionEvent evt) {\/\/GEN-FIRST:event_re/;"	m	class:PilaProducto	file:
 regresarActionPerformed	VColasCliente.java	/^    private void regresarActionPerformed(java.awt.event.ActionEvent evt) {\/\/GEN-FIRST:event_re/;"	m	class:VColasCliente	file:
+regresarActionPerformed	VColasNombre.java	/^    private void regresarActionPerformed(java.awt.event.ActionEvent evt) {\/\/GEN-FIRST:event_re/;"	m	class:VColasNombre	file:
 regresarActionPerformed	VListasPersona.java	/^    private void regresarActionPerformed(java.awt.event.ActionEvent evt) {\/\/GEN-FIRST:event_re/;"	m	class:VListasPersona	file:
 regresarActionPerformed	VListasString.java	/^    private void regresarActionPerformed(java.awt.event.ActionEvent evt) {\/\/GEN-FIRST:event_re/;"	m	class:VListasString	file:
 regresarActionPerformed	VPilaInteger.java	/^    private void regresarActionPerformed(java.awt.event.ActionEvent evt) {\/\/GEN-FIRST:event_re/;"	m	class:VPilaInteger	file:
 regresarActionPerformed	vColasNombres.java	/^    private void regresarActionPerformed(java.awt.event.ActionEvent evt) {\/\/GEN-FIRST:event_re/;"	m	class:vColasNombres	file:
 reporte	PilaProducto.java	/^    private javax.swing.JButton reporte;$/;"	f	class:PilaProducto	file:
 reporte	VColasCliente.java	/^    private javax.swing.JButton reporte;$/;"	f	class:VColasCliente	file:
+reporte	VColasNombre.java	/^    private javax.swing.JButton reporte;$/;"	f	class:VColasNombre	file:
 reporte	VPilaInteger.java	/^    private javax.swing.JButton reporte;$/;"	f	class:VPilaInteger	file:
 reporte	vColasNombres.java	/^    private javax.swing.JButton reporte;$/;"	f	class:vColasNombres	file:
 reporteActionPerformed	PilaProducto.java	/^    private void reporteActionPerformed(java.awt.event.ActionEvent evt) {\/\/GEN-FIRST:event_rep/;"	m	class:PilaProducto	file:
 reporteActionPerformed	VColasCliente.java	/^    private void reporteActionPerformed(java.awt.event.ActionEvent evt) {\/\/GEN-FIRST:event_rep/;"	m	class:VColasCliente	file:
+reporteActionPerformed	VColasNombre.java	/^    private void reporteActionPerformed(java.awt.event.ActionEvent evt) {\/\/GEN-FIRST:event_rep/;"	m	class:VColasNombre	file:
 reporteActionPerformed	VPilaInteger.java	/^    private void reporteActionPerformed(java.awt.event.ActionEvent evt) {\/\/GEN-FIRST:event_rep/;"	m	class:VPilaInteger	file:
 reporteActionPerformed	vColasNombres.java	/^    private void reporteActionPerformed(java.awt.event.ActionEvent evt) {\/\/GEN-FIRST:event_rep/;"	m	class:vColasNombres	file:
 saldo	Cliente.java	/^    private double saldo;$/;"	f	class:Cliente	file:
@@ -326,6 +345,7 @@ salir	IPrincipal.java	/^    private javax.swing.JMenu salir;$/;"	f	class:IPrinci
 salirMouseClicked	IPrincipal.java	/^    private void salirMouseClicked(java.awt.event.MouseEvent evt) {\/\/GEN-FIRST:event_salirMous/;"	m	class:IPrincipal	file:
 texto	PilaProducto.java	/^    private javax.swing.JTextArea texto;$/;"	f	class:PilaProducto	file:
 texto	VColasCliente.java	/^    private javax.swing.JTextArea texto;$/;"	f	class:VColasCliente	file:
+texto	VColasNombre.java	/^    private javax.swing.JTextArea texto;$/;"	f	class:VColasNombre	file:
 texto	VListasPersona.java	/^    private javax.swing.JTextArea texto;$/;"	f	class:VListasPersona	file:
 texto	VListasString.java	/^    private javax.swing.JTextArea texto;$/;"	f	class:VListasString	file:
 texto	VPilaInteger.java	/^    private javax.swing.JTextArea texto;$/;"	f	class:VPilaInteger	file:

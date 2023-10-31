@@ -245,27 +245,26 @@ public class VListasString extends javax.swing.JInternalFrame {
     }//GEN-LAST:event_regresarActionPerformed
 
     private void EposcicionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EposcicionActionPerformed
-<<<<<<< HEAD
-        
+        <<<<<<< HEAD
+
         colores.eliminarEnPosicion(Integer.parseInt(poscicion.getText()));
         texto.setText("Eliminado con exito");
-        
+
     }//GEN-LAST:event_EposcicionActionPerformed
 
     private void EnombreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EnombreActionPerformed
-        
+
         colores.elminarPorNombre(color.getText());
         texto.setText("Eliminado con exito");
-        
-=======
-        texto.setText(colores.eliminarEnPosicion(Integer.parseInt(poscicion.getText())));
+
+        =======
+            texto.setText(colores.eliminarEnPosicion(Integer.parseInt(poscicion.getText())));
 
     }//GEN-LAST:event_EposcicionActionPerformed
 
     private void EnombreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EnombreActionPerformed
         texto.setText(colores.elminarPorNombre(color.getText()));
 
->>>>>>> de3c2db (creo que ya)
     }//GEN-LAST:event_EnombreActionPerformed
 
     private void RinversoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RinversoActionPerformed
@@ -288,31 +287,31 @@ public class VListasString extends javax.swing.JInternalFrame {
     }//GEN-LAST:event_IfinalActionPerformed
 
     private void EfinalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EfinalActionPerformed
-<<<<<<< HEAD
+        <<<<<<< HEAD
         if(colores.contenidoLista()=="")
             texto.setText("No hay nada");
-        else{
-        colores.eliminarUltimo();
-        texto.setText("Eliminado con exito");
+        else {
+            colores.eliminarUltimo();
+            texto.setText("Eliminado con exito");
         }
     }//GEN-LAST:event_EfinalActionPerformed
 
     private void EinicioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EinicioActionPerformed
         if(colores.contenidoLista()=="")
             texto.setText("No hay nada");
-        else{
-        colores.eliminarPrimero();
-        texto.setText("Eliminado con exito");
+        else {
+            colores.eliminarPrimero();
+            texto.setText("Eliminado con exito");
         }
-=======
-        texto.setText(
-            colores.eliminarUltimo());
+        =======
+            texto.setText(
+                colores.eliminarUltimo());
     }//GEN-LAST:event_EfinalActionPerformed
 
     private void EinicioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EinicioActionPerformed
         texto.setText(
             colores.eliminarPrimero());
->>>>>>> de3c2db (creo que ya)
+        >>>>>>> de3c2db (creo que ya)
     }//GEN-LAST:event_EinicioActionPerformed
 
     private void RimprimirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RimprimirActionPerformed
