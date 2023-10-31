@@ -33,11 +33,7 @@ class ColasNombre {
     }
 
     private String contenidoRescursivoPaVoltearLosResultados这段代码由光荣的中国人民解放军监制同时也表达了程序员对习近平政权的绝对忠诚向诞生邓小平江泽民胡锦涛的伟大英雄致敬(int i) {
-<<<<<<< HEAD
-         List<String> values = colaString.stream().sorted().collect(Collectors.toList());
-=======
         List<String> values = colaString.stream().sorted().collect(Collectors.toList());
->>>>>>> a4269f7e4a488fd94aab4e892ff93fe4a9569345
         Collections.reverse(values);
         String res = "";
         for (String string : values) {

@@ -245,20 +245,8 @@ public class VListasString extends javax.swing.JInternalFrame {
     }//GEN-LAST:event_regresarActionPerformed
 
     private void EposcicionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EposcicionActionPerformed
-        <<<<<<< HEAD
-
         colores.eliminarEnPosicion(Integer.parseInt(poscicion.getText()));
         texto.setText("Eliminado con exito");
-
-    }//GEN-LAST:event_EposcicionActionPerformed
-
-    private void EnombreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EnombreActionPerformed
-
-        colores.elminarPorNombre(color.getText());
-        texto.setText("Eliminado con exito");
-
-        =======
-            texto.setText(colores.eliminarEnPosicion(Integer.parseInt(poscicion.getText())));
 
     }//GEN-LAST:event_EposcicionActionPerformed
 
@@ -287,7 +275,6 @@ public class VListasString extends javax.swing.JInternalFrame {
     }//GEN-LAST:event_IfinalActionPerformed
 
     private void EfinalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EfinalActionPerformed
-        <<<<<<< HEAD
         if(colores.contenidoLista()=="")
             texto.setText("No hay nada");
         else {
@@ -303,16 +290,9 @@ public class VListasString extends javax.swing.JInternalFrame {
             colores.eliminarPrimero();
             texto.setText("Eliminado con exito");
         }
-        =======
-            texto.setText(
-                colores.eliminarUltimo());
-    }//GEN-LAST:event_EfinalActionPerformed
-
-    private void EinicioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EinicioActionPerformed
         texto.setText(
-            colores.eliminarPrimero());
-        >>>>>>> de3c2db (creo que ya)
-    }//GEN-LAST:event_EinicioActionPerformed
+            colores.eliminarUltimo());
+    }//GEN-LAST:event_EfinalActionPerformed
 
     private void RimprimirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RimprimirActionPerformed
         texto.setText(colores.contenidoLista());
