@@ -15,25 +15,28 @@ class ListasEnlazadasColores {
         listString.addFirst(color);
         return "String añadida al principio de la lista";
     }
-    
-    public String insertar(String color, int index){
+
+    public String insertar(String color, int index) {
         listString.add(index,color);
         return "Elemento agregado0";
     }
 
     public String eliminarPrimero() {
-        listString.removeFirst();
+        if(listString.removeFirst()==null)return "No hay na";
         return "String Primera eliminada";
     }
 
     public String eliminarUltimo() {
-        listString.removeLast();
+        if(listString.removeLast()==null)return "No hay nada vuelva prontro";
         return "String Ultima eliminada";
     }
 
     public String eliminarEnPosicion(int index) {
-        listString.remove(index);
-        return "String en indice: " +  index + "eliminada";
+        if(listString.remove(index)!=null) {
+            return "Color en indice: " +  index + "eliminao";
+        } else {
+            return "Indice no encontrado pipipipipi";
+        }
     }
 
     public String elminarPorNombre(String nombre) {

@@ -183,8 +183,8 @@ initComponents	VPilaInteger.java	/^    private void initComponents() {$/;"	m	cla
 initComponents	vColasNombres.java	/^    private void initComponents() {$/;"	m	class:vColasNombres	file:
 insertar	ColasCliente.java	/^    public String insertar(Cliente cliente) {$/;"	m	class:ColasCliente
 insertar	ColasNombre.java	/^    public String insertar(String str) {$/;"	m	class:ColasNombre
-insertar	ListasEnlazadasPersona.java	/^    public String insertar(Persona persona, int index){$/;"	m	class:ListasEnlazadasPersona
-insertar	ListasEnlazadasString.java	/^    public String insertar(String color, int index){$/;"	m	class:ListasEnlazadasColores
+insertar	ListasEnlazadasPersona.java	/^    public String insertar(Persona persona, int index) {$/;"	m	class:ListasEnlazadasPersona
+insertar	ListasEnlazadasString.java	/^    public String insertar(String color, int index) {$/;"	m	class:ListasEnlazadasColores
 insertarAlFinal	ListasEnlazadasPersona.java	/^    public String insertarAlFinal(Persona persona) {$/;"	m	class:ListasEnlazadasPersona
 insertarAlFinal	ListasEnlazadasString.java	/^    public String insertarAlFinal(String color) {$/;"	m	class:ListasEnlazadasColores
 insertarAlPrincipio	ListasEnlazadasPersona.java	/^    public String insertarAlPrincipio(Persona persona) {$/;"	m	class:ListasEnlazadasPersona

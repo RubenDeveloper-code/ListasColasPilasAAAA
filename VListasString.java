@@ -1,4 +1,3 @@
-
 public class VListasString extends javax.swing.JInternalFrame {
 
     ListasEnlazadasColores colores;
@@ -139,103 +138,103 @@ public class VListasString extends javax.swing.JInternalFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(22, 22, 22)
-                        .addComponent(jLabel1)
-                        .addGap(59, 59, 59)
-                        .addComponent(jLabel2)
-                        .addGap(31, 31, 31)
-                        .addComponent(jLabel3))
-                    .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel4)
-                                .addGap(18, 18, 18)
-                                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel11)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addContainerGap()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                    .addComponent(Iinicio, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(Ifinal, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                            .addComponent(Iposcicion))
-                        .addGap(18, 18, 18)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(4, 4, 4)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(Einicio)
-                                    .addComponent(Efinal))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(Rimprimir)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(regresar))
-                                    .addComponent(Rbuscar)))
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(6, 6, 6)
-                                .addComponent(Enombre))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(Eposcicion)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Rinverso)))))
-                .addContainerGap(44, Short.MAX_VALUE))
+                      .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(layout.createSequentialGroup()
+                                          .addGap(22, 22, 22)
+                                          .addComponent(jLabel1)
+                                          .addGap(59, 59, 59)
+                                          .addComponent(jLabel2)
+                                          .addGap(31, 31, 31)
+                                          .addComponent(jLabel3))
+                                .addGroup(layout.createSequentialGroup()
+                                          .addContainerGap()
+                                          .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                  .addGroup(layout.createSequentialGroup()
+                                                          .addComponent(jLabel4)
+                                                          .addGap(18, 18, 18)
+                                                          .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                  .addGroup(layout.createSequentialGroup()
+                                                          .addComponent(jLabel11)
+                                                          .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                                          .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                .addGroup(layout.createSequentialGroup()
+                                          .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                  .addGroup(layout.createSequentialGroup()
+                                                          .addContainerGap()
+                                                          .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                                                  .addComponent(Iinicio, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                                                  .addComponent(Ifinal, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                                                  .addComponent(Iposcicion))
+                                          .addGap(18, 18, 18)
+                                          .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                  .addGroup(layout.createSequentialGroup()
+                                                          .addGap(4, 4, 4)
+                                                          .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                                  .addComponent(Einicio)
+                                                                  .addComponent(Efinal))
+                                                          .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                          .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                                  .addGroup(layout.createSequentialGroup()
+                                                                          .addComponent(Rimprimir)
+                                                                          .addGap(18, 18, 18)
+                                                                          .addComponent(regresar))
+                                                                  .addComponent(Rbuscar)))
+                                                  .addGroup(layout.createSequentialGroup()
+                                                          .addGap(6, 6, 6)
+                                                          .addComponent(Enombre))
+                                                  .addGroup(layout.createSequentialGroup()
+                                                          .addComponent(Eposcicion)
+                                                          .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                          .addComponent(Rinverso)))))
+                      .addContainerGap(44, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 328, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(28, 28, 28))
+                      .addGap(0, 0, Short.MAX_VALUE)
+                      .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 328, javax.swing.GroupLayout.PREFERRED_SIZE)
+                      .addGap(28, 28, 28))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel4)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel11)
-                        .addGap(6, 6, 6))
-                    .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 26, Short.MAX_VALUE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel1)
-                    .addComponent(jLabel2)
-                    .addComponent(jLabel3))
-                .addGap(4, 4, 4)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(Einicio)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Efinal))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(Iinicio)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Ifinal))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(Rbuscar)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(Rimprimir)
-                            .addComponent(regresar))))
-                .addGap(9, 9, 9)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(Iposcicion)
-                    .addComponent(Eposcicion)
-                    .addComponent(Rinverso))
-                .addGap(10, 10, 10)
-                .addComponent(Enombre))
+                      .addContainerGap()
+                      .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(jLabel4)
+                                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                      .addGap(18, 18, 18)
+                      .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(layout.createSequentialGroup()
+                                          .addComponent(jLabel11)
+                                          .addGap(6, 6, 6))
+                                .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                      .addGap(18, 18, 18)
+                      .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
+                      .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 26, Short.MAX_VALUE)
+                      .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                .addComponent(jLabel1)
+                                .addComponent(jLabel2)
+                                .addComponent(jLabel3))
+                      .addGap(4, 4, 4)
+                      .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(layout.createSequentialGroup()
+                                          .addComponent(Einicio)
+                                          .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                          .addComponent(Efinal))
+                                .addGroup(layout.createSequentialGroup()
+                                          .addComponent(Iinicio)
+                                          .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                          .addComponent(Ifinal))
+                                .addGroup(layout.createSequentialGroup()
+                                          .addComponent(Rbuscar)
+                                          .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                          .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                                  .addComponent(Rimprimir)
+                                                  .addComponent(regresar))))
+                      .addGap(9, 9, 9)
+                      .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                .addComponent(Iposcicion)
+                                .addComponent(Eposcicion)
+                                .addComponent(Rinverso))
+                      .addGap(10, 10, 10)
+                      .addComponent(Enombre))
         );
 
         pack();
@@ -246,6 +245,7 @@ public class VListasString extends javax.swing.JInternalFrame {
     }//GEN-LAST:event_regresarActionPerformed
 
     private void EposcicionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EposcicionActionPerformed
+<<<<<<< HEAD
         
         colores.eliminarEnPosicion(Integer.parseInt(poscicion.getText()));
         texto.setText("Eliminado con exito");
@@ -257,6 +257,15 @@ public class VListasString extends javax.swing.JInternalFrame {
         colores.elminarPorNombre(color.getText());
         texto.setText("Eliminado con exito");
         
+=======
+        texto.setText(colores.eliminarEnPosicion(Integer.parseInt(poscicion.getText())));
+
+    }//GEN-LAST:event_EposcicionActionPerformed
+
+    private void EnombreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EnombreActionPerformed
+        texto.setText(colores.elminarPorNombre(color.getText()));
+
+>>>>>>> de3c2db (creo que ya)
     }//GEN-LAST:event_EnombreActionPerformed
 
     private void RinversoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RinversoActionPerformed
@@ -279,6 +288,7 @@ public class VListasString extends javax.swing.JInternalFrame {
     }//GEN-LAST:event_IfinalActionPerformed
 
     private void EfinalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EfinalActionPerformed
+<<<<<<< HEAD
         if(colores.contenidoLista()=="")
             texto.setText("No hay nada");
         else{
@@ -294,6 +304,15 @@ public class VListasString extends javax.swing.JInternalFrame {
         colores.eliminarPrimero();
         texto.setText("Eliminado con exito");
         }
+=======
+        texto.setText(
+            colores.eliminarUltimo());
+    }//GEN-LAST:event_EfinalActionPerformed
+
+    private void EinicioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EinicioActionPerformed
+        texto.setText(
+            colores.eliminarPrimero());
+>>>>>>> de3c2db (creo que ya)
     }//GEN-LAST:event_EinicioActionPerformed
 
     private void RimprimirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RimprimirActionPerformed
@@ -303,7 +322,6 @@ public class VListasString extends javax.swing.JInternalFrame {
     private void RbuscarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RbuscarActionPerformed
         texto.setText(colores.buscarPorNombre(color.getText()));
     }//GEN-LAST:event_RbuscarActionPerformed
-
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton Efinal;

@@ -11,7 +11,6 @@ class ColasCliente {
 
     public String insertar(Cliente cliente) {
         colaCilente.add(cliente);
-        System.out.print("UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU");
         return "Cliente agregado a cola";
     }
 

@@ -15,25 +15,28 @@ class ListasEnlazadasPersona {
         listPersona.addFirst(persona);
         return "Persona añadida al principio de la lista";
     }
-    
-    public String insertar(Persona persona, int index){
+
+    public String insertar(Persona persona, int index) {
         listPersona.add(index,persona);
         return "Elemento agregado0";
     }
 
     public String eliminarPrimero() {
-        listPersona.removeFirst();
+        if(listPersona.removeFirst()==null)return "No hay nada";
         return "Persona Primera eliminada";
     }
 
     public String eliminarUltimo() {
-        listPersona.removeLast();
+        if(listPersona.removeLast()==null)return "No hay nada regrese prontoooo";
         return "Persona Ultima eliminada";
     }
 
     public String eliminarEnPosicion(int index) {
-        listPersona.remove(index);
-        return "Persona en indice: " +  index + "eliminada";
+        if(listPersona.remove(index)!=null) {
+            return "Persona en indice: " +  index + "eliminada";
+        } else {
+            return "Indice no encontrado pipipipipi";
+        }
     }
 
     public String elminarPorNombre(String nombre) {
