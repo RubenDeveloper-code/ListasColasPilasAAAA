@@ -32,9 +32,10 @@ class ListasEnlazadasColores {
     }
 
     public String eliminarEnPosicion(int index) {
-        if(listString.remove(index)!=null) {
-            return "Color en indice: " +  index + "eliminao";
-        } else {
+       try{
+        listString.remove(index);
+            return "Persona en indice: " +  index + "eliminada";
+        }catch(Exception e) {
             return "Indice no encontrado pipipipipi";
         }
     }

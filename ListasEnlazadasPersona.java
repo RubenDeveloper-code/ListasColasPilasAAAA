@@ -32,9 +32,10 @@ class ListasEnlazadasPersona {
     }
 
     public String eliminarEnPosicion(int index) {
-        if(listPersona.remove(index)!=null) {
+        try{
+        listPersona.remove(index);
             return "Persona en indice: " +  index + "eliminada";
-        } else {
+        }catch(Exception e) {
             return "Indice no encontrado pipipipipi";
         }
     }
